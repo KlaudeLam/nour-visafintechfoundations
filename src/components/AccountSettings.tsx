@@ -4,8 +4,8 @@ import { Button } from './ui/button';
 import nourLogo from 'figma:asset/ff990690cdc61ad9076fa5a4ae768c279ad65993.png';
 
 const accountInfo = {
-  name: 'Alex Rivera',
-  email: 'alex.rivera@email.com',
+  name: 'Alexandra Rivera',
+  email: 'alexandra.rivera@email.com',
   phone: '+971 50 123 4567',
   language: 'English',
   country: 'United Arab Emirates',

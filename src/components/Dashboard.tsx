@@ -42,7 +42,7 @@ export function Dashboard({ onNavigate }: DashboardProps) {
               <User className="w-7 h-7 text-white" />
             </div>
             <div>
-              <h1 className="text-xl text-white">Alex Rivera</h1>
+              <h1 className="text-xl text-white">Alexandra Rivera</h1>
               <p className="text-[#22d3ee] text-sm">Digital Nomad</p>
             </div>
           </div>

@@ -27,14 +27,14 @@ const commonDocuments = [
 ];
 
 const bankRequirements: Record<string, string[]> = {
-  enbd: ['Employment Certificate', 'Salary Certificate'],
-  adcb: ['Bank Statement (6 months)'],
-  hsbc: ['Visa Document', 'Salary Proof', 'Tax ID'],
-  fab: ['Employment Letter'],
-  rakbank: ['Salary Certificate'],
-  sabb: ['Residence Proof', 'Employment Letter'],
-  alrajhi: ['Salary Certificate', 'Employer Letter'],
-  nbk: ['Bank Reference Letter'],
+  enbd: ['Employment Certificate', 'Salary Certificate', 'Student ID (if student)', 'University Letter (if student)'],
+  adcb: ['Bank Statement (6 months)', 'Student ID (if student)', 'Enrollment Letter (if student)'],
+  hsbc: ['Visa Document', 'Salary Proof', 'Tax ID', 'Student Status Letter (if student)', 'Scholarship Letter (if applicable)'],
+  fab: ['Employment Letter', 'Bank Statement (3 months)', 'Trade License Copy', 'Salary Transfer Letter', 'University Enrollment (if student)', 'Parent/Guardian Consent (if student under 21)'],
+  rakbank: ['Salary Certificate', 'Employment Contract', 'Bank Statement (6 months)', 'Company Letter', 'Student ID Card (if student)', 'University Letter (if student)', 'Parent Income Proof (if student)'],
+  sabb: ['Residence Proof', 'Employment Letter', 'Salary Slip (3 months)', 'IBAN Certificate', 'Tax Registration', 'University ID (if student)', 'Enrollment Certificate (if student)', 'Guardian Details (if student)'],
+  alrajhi: ['Salary Certificate', 'Employer Letter', 'Saudi ID/Iqama', 'Utility Bill', 'HR Letter', 'Student ID (if student)', 'University Letter (if student)', 'Family Book (if Saudi student)'],
+  nbk: ['Bank Reference Letter', 'Salary Transfer Document', 'Civil ID', 'Employment Contract', 'Company Stamp Letter', 'Student Card (if student)', 'University Certificate (if student)', 'Parent Signature (if student under 21)'],
 };
 
 const bankApplications = {
@@ -47,7 +47,7 @@ const bankApplications = {
   },
   adcb: {
     status: 'Approved',
-    submitted: ['Passport', 'National ID', 'Proof of Address', 'Bank Statement (6 months)'],
+    submitted: ['Passport','National ID','Proof of Address','Bank Statement (6 months)', 'Student ID (if student)', 'Enrollment Letter (if student)'],
     remaining: [],
     lastUpdate: 'Account opened successfully - 5 days ago',
     color: 'green'
