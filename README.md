@@ -4,7 +4,7 @@ A unified, portable financial identity system enabling seamless cross-border ban
 _(This is a code bundle for nour. The original project is available at https://www.figma.com/design/p9yxJrNiXLTeaVMtttT9YT/nour.)_
 
 ## Overview
-The Digital Money Passport addresses the fragmented global financial identity system by creating a single digital credential that allows users to access financial services across borders without repeatedly going through KYC processes.
+nour - The Digital Money Passport addresses the fragmented global financial identity system by creating a single digital credential that allows users to access financial services across borders without repeatedly going through KYC processes.
 
 ## Problem Statement
 - **No Standardization**: Each bank maintains its own fragmented trust network
