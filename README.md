@@ -1,7 +1,6 @@
 
 # nour - Digital Money Passport
-A unified, portable financial identity system enabling seamless cross-border banking access.
-_(This is a code bundle for nour. The original project is available at https://www.figma.com/design/p9yxJrNiXLTeaVMtttT9YT/nour.)_
+A unified, portable financial identity system enabling seamless cross-border banking access (https://nour-visafoundation.figma.site/).
 
 ## Overview
 nour - The Digital Money Passport addresses the fragmented global financial identity system by creating a single digital credential that allows users to access financial services across borders without repeatedly going through KYC processes.
@@ -33,6 +32,7 @@ Automated fraud detection and regulatory compliance monitoring
 
 
 ## Running the code
+_(This is a code bundle for nour. The original project is available at https://www.figma.com/design/p9yxJrNiXLTeaVMtttT9YT/nour.)_
 
 Run `npm i` to install the dependencies.
 
